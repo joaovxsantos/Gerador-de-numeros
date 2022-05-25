@@ -12,19 +12,20 @@
 //     console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 //   };
 
-let a = document.getElementById("min");
-let min = a.value
-let b = document.getElementById("max");
-let max = b.value
-let c = window.document.getElementsByTagName("p")[1];
-console.log(min)
 
-function number(){
+
+function number() {
+    let a = document.getElementById("min");
+    let min = parseFloat(prompt("Digite um número"))
+    let b = document.getElementById("max");
+    let max = parseFloat(prompt("Digite outro número"))
+    let c = window.document.getElementsByTagName("p")[1];
     let result = Math.floor(Math.random() * (max - min + 1)) + min;
     c.innerText = "Número gerado: " + result;
     
-
 }
+
+
 
 
 

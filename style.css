@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}

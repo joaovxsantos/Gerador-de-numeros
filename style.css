@@ -1,9 +1,18 @@
 *{
     text-align: center;
+    
 }
 
 button{
     display: block;
     margin: auto;
     margin-top: 1rem;
+}
+
+
+div{
+    background-color: rgb(223, 109, 16);
+    width: 40em;
+    height: 12em;
+    margin: auto;
 }

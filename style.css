@@ -16,3 +16,7 @@ div{
     height: 12em;
     margin: auto;
 }
+
+a:visited{
+    color: black;
+}

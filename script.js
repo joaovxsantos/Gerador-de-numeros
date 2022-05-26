@@ -16,12 +16,20 @@
 
 function number() {
     let a = document.getElementById("min");
-    let min = parseFloat(prompt("Digite um número"))
+    let min = a.value
     let b = document.getElementById("max");
-    let max = parseFloat(prompt("Digite outro número"))
+    let max = b.value
     let c = window.document.getElementsByTagName("p")[1];
-    let result = Math.floor(Math.random() * (max - min + 1)) + min;
+    
+    // let max = 10
+    // let min = 3
+    let result = Math.floor(Math.random() * ((max - min + 1) + min));
     c.innerText = "Número gerado: " + result;
+    // console.log(max)
+    // console.log(min)
+    // console.log(max - min +1 ) + min;
+    
+
     
 }
 

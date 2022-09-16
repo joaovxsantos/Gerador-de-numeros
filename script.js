@@ -1,3 +1,19 @@
+let Gerar = document.querySelector('#gerar')
+
+
+function numero(){
+
+
+      
+
+}
+
+
+
+
+
+
+
 function number() {
     let a = document.getElementById("min");
     let min = parseInt(a.value)
@@ -9,6 +25,6 @@ function number() {
 }
 
 
-
+Gerar.addEventListener('click', numero)
 
 

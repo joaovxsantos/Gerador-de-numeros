@@ -6,17 +6,14 @@
   text-align: center;
 }
 
-body {
-  background-color: #00baff;
-}
-
 #container {
   margin: auto;
   margin-top: 1rem;
-  max-width: 40vh;
+  max-width: 40vw;
   background-color: rgb(13, 133, 231);
   padding: 2rem;
   border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .content {
@@ -33,7 +30,6 @@ input {
   width: 20vh;
   margin-top: 1rem;
   padding: 6px;
-
   border-radius: 5px;
 }
 
@@ -47,4 +43,8 @@ input {
 p {
   margin-top: 1rem;
   font-size: 18px;
+}
+
+a:visited {
+  color: black;
 }

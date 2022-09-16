@@ -1,27 +1,15 @@
 let Gerar = document.querySelector('#gerar')
 
 
-function numero(){
+function numero() {
+
+    let div = document.querySelector('.content')
+    let p1 = document.querySelector('#p1')
+    let minimo = Number(document.querySelector('#min').value)
+    let maximo = Number(document.querySelector('#max').value)
+    p1.innerHTML = Math.floor(Math.random() * (maximo - minimo + 1)) + minimo
 
 
-      
-
-}
-
-
-
-
-
-
-
-function number() {
-    let a = document.getElementById("min");
-    let min = parseInt(a.value)
-    let b = document.getElementById("max");
-    let max = parseInt(b.value)
-    let c = window.document.getElementsByTagName("p")[1];
-    let result = Math.floor(Math.random() * (max - min + 1)) + min;
-    c.innerText = "Número gerado: " + result;
 }
 
 
